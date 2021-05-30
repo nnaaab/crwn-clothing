@@ -1,17 +1,11 @@
-import firebase from 'firebase/app';
+// apiimport firebase from 'firebase/app';
 import 'firebase/firestore';
 import 'firebase/auth';
 import { useReducer } from 'react';
 
 
 const config = {
-      apiKey: "AIzaSyADBNjkXYlTwzDvK1DMitI-kEWrxUspH_M",
-      authDomain: "crwn-db-4ec1f.firebaseapp.com",
-      projectId: "crwn-db-4ec1f",
-      storageBucket: "crwn-db-4ec1f.appspot.com",
-      messagingSenderId: "612604851951",
-      appId: "1:612604851951:web:a1a3e06640853bb4eb0d1a",
-      measurementId: "G-YKC8CZN9NQ"
+//       api
     };
 
 export const createUserProfileDocument = async (userAuth, ...additionalData) => {
